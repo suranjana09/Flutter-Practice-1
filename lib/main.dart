@@ -5,6 +5,7 @@ import 'package:osin/screens/first_screen.dart';
 import 'package:osin/screens/second_screens.dart';
 import 'package:osin/screens/tabs.dart';
 import 'package:osin/screens/third_screen.dart';
+import 'package:osin/screens/timer.dart';
 import 'package:osin/settings.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  OurNavigation(),
+      home:  TimerData(),
     );
   }
 }

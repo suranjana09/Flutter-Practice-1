@@ -70,7 +70,8 @@ Widget buildGridView() => Container(
                 onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) {
                 return SecondScreen(prod:prod);
-              },));
+              },)
+              );
             },
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -117,7 +118,8 @@ Widget buildGridView() => Container(
                   ],
                 ),
               );
-            }),
+            }
+            ),
           );
           
         }
